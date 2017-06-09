@@ -1,7 +1,7 @@
 package com.my.learn.freemarker;
  
 /**
- *   @author adams 
+ *   @author zengzhihua
  */
 public class User {
     private String username;
