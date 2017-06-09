@@ -1,7 +1,6 @@
 package com.my.learn.freemarker;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.StringWriter;
@@ -26,7 +25,7 @@ public class FmAppUseage {
 		root.put("packageName", "com.my.learn.freemarker");
 		root.put("className", "User");
 		root.put("attrs", list);
-		root.put("author", "adams");
+		root.put("author", "zengzhihua");
 		
 		Configuration cfg = new Configuration();
 		String path = FmAppUseage.class.getResource("/").getPath()+"template";

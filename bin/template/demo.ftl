@@ -1,7 +1,7 @@
 package ${packageName};
  
 /**
- *  <#if author == "adams"> @author adams </#if>
+ *  <#if author == "zengzhihua"> @author zengzhihua </#if>
  */
 public class ${className} {
     <#list attrs as a> 
