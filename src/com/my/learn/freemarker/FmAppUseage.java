@@ -22,7 +22,7 @@ public class FmAppUseage {
 		list.add(new Attr("hobby", "String"));
 		
 		Map<String,Object> root = new HashMap<String, Object>();
-		root.put("packageName", "com.my.learn.freemarker");
+		root.put("packageName", "com.zeng.learn.freemarker");
 		root.put("className", "User");
 		root.put("attrs", list);
 		root.put("author", "zengzhihua");
